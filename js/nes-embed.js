@@ -80,9 +80,11 @@ function keyboard(callback, event) {
         case 39: // Right
         case 68: // d
             callback(player, jsnes.Controller.BUTTON_RIGHT); break;
+        case 80: // o
         case 104: // 7
             callback(player, jsnes.Controller.BUTTON_A); break;
         case 103: // 8
+        case 79: // p
             callback(player, jsnes.Controller.BUTTON_B); break;
         case 9: // Tab
             callback(player, jsnes.Controller.BUTTON_SELECT); break;

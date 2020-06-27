@@ -142,12 +142,13 @@
 
         @media all and (orientation : landscape) {
 
+            /*横屏*/
             html,
             body {
                 max-height: 600px;
+                max-width: 1000px;
             }
 
-            /*横屏*/
             .screen {
                 margin: auto;
                 width: 60%;
@@ -186,7 +187,7 @@
     <script>
         window.onload = function () {
             var console = new VConsole();
-            nes_load_url("nes-canvas", "./rom/mla.nes");
+            nes_load_url("nes-canvas", "./rom/smtz.nes");
         }
     </script>
 </head>
